@@ -1,0 +1,24 @@
+Algorithm AmountSaved
+  Var Number:Amntpurchased, AmntFinal
+  
+  print("Enter amount purchased:")
+  read(Amntpurchased)
+  
+  AmntFinal <- Amntpurchased - CalculateDiscount(Amntpurchased)
+  
+  Print ("Amount of purchase is " + Amntpurchased + "and i saved:" + AmntFinal)
+End Algorithm
+
+
+Algorithm CalculateDiscount(Number: Purchase): Number
+  Var Number: Discount
+  If (Purchase <= 1000)
+    Discount <- Purchase *.30
+  Else
+    Discount <- Purchase *.35
+  End if
+  If Discount >500
+     Discount <- 500
+  End if
+  Return Discount
+End Algorithm
