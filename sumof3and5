@@ -1,0 +1,12 @@
+Algorithm SumOfThreeAndFive
+  var Number: FirstN, Counter, Sum
+  Sum = 0
+  Print("Please Enter a Number:")
+  Read(FirstN)
+  for Counter = 1 to FirstN do
+    Sum = Sum + Counter*3 + Counter*5
+    Counter = Counter + 1
+  End For
+  Print ("Sum is:"+Sum)
+  
+End Algorithm
