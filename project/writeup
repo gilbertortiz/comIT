@@ -1,0 +1,49 @@
+1. What is the problem that you are trying to solve?
+
+The problem that i am trying to solve is how to monitor easily the monitoring of the daily vehicle appraisal and acquisition status 
+of crown honda. 
+
+2.What is the idea for your project?
+
+The idea is a website called " Vehicle Acquisition Monitoring Website, where the Vehicle Acquisition Specialist will be able
+to create a record of the vehicle owners information and the vehicle information for appraisal. It will then monitor the status
+of the appraisal if the owner traded his vehicle to a new/used vehicle or sell it only to the dealership. It will monitor
+the daily count of the vehicle appraised, traded, and purchased on a month to date basis.
+
+3. What information will your solution store?
+
+The information my website will store is the list of the vehicle acquisition specialist users, and the model, make, trim, color and engine size of the vehicle.
+Sale person assigned, Accesories of the vehicle and Protection packages
+ 
+4. What use cases/features/flows will your solution provide?
+
+User can log in to the website with their employee number and password to gain access
+User can create new vehicle appraisal by entering the vin number to create new record.if the vin is found it will show a remarks that the vehicle was appraised already
+by the user/ the date/ and the amount and it will show all the information entered/saved before then the user can edit all
+the fields.
+if vin is not found then it will ask to input the following:
+the customer name, sales person assigned, date, vin number, mileage, vehicle description(year,make,model,trim,color/engine size), manual/automatic, number of owners
+with claims, claim details, purchased(new/used), lien(yes/no), lien details(amount/bank/payment), license plate, features, extended warranty (yes/no),warranty details,  protection package, protection packagedetails,
+service record(yes/no), 2 keys (yes/no), remote start(yes/no), winter tires(yes/no), rims(yes/no)
+After saving user will find the record from list of appraised vehicle and update the record by entering the appraised
+amount, that will record the date created and updated and the user who update the record. then record will be updated
+
+User will then update the record of the appraised vehicle with appraised amount  by updating its 
+status to traded or not, purchased or not or number served only, not interested
+If the vehicle is traded it will ask additional information (deal number and stock number) if buy-in only it will ask the stock number only 
+Record with no appraised amount will have an automatic status "Pending Appraisal" after a day
+
+If the status is not traded, not purchased, number served only, not interested 
+the website will print an Appraisal cheque Voucher.
+
+User can view the list of appraised vehicle by filter in days (7/14/30/90/all) by default is 7 days
+it will show the total records count.
+and the record list information (vin, year,make, model, series(trim,engine size), color, odometer, source(customer name), created date, created by)
+then each record can be click to individually update it. and also there is a check box each record to delete it forcely.
+
+User can also view all appraised vehicle with status status to traded or not, purchased or not or number served only, not interested
+for month to date report. that will create a summary of "Total vehicle appraised, total vehicle appraised with number presented, total vehicle traded/buyins
+
+
+
+
