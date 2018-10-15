@@ -6,8 +6,10 @@ of crown honda.
 2.What is the idea for your project?
 
 The idea is a website called " Vehicle Acquisition Monitoring Website, where the Vehicle Acquisition Specialist will be able
-to create a record of the vehicle owners information and the vehicle information for appraisal. It will then monitor the status
-of the appraisal if the owner traded his vehicle to a new/used vehicle or sell it only to the dealership. It will monitor
+to create a record of the vehicle owners information and the vehicle information for appraisal. 
+It will then monitor the status
+of the appraisal if the owner traded his vehicle to a new/used vehicle or sell it only to the dealership. 
+It will monitor
 the daily count of the vehicle appraised, traded, and purchased on a month to date basis.
 
 3. What information will your solution store?
