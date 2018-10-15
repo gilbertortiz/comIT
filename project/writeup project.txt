@@ -1,6 +1,6 @@
 1. What is the problem that you are trying to solve?
 
-The problem that i am trying to solve is how to monitor easily the monitoring of the daily vehicle appraisal and acquisition status 
+The problem that i am trying to solve is how to monitor easily the daily vehicle appraisal and acquisition status 
 of crown honda. 
 
 2.What is the idea for your project?
